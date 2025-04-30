@@ -1,4 +1,4 @@
-# **Elite Dangerous Ease \- Help Document**
+# **Elite Dangerous Ease**
 
 **Elite Dangerous Ease** is a powerful WPF overlay tool designed to enhance your Elite Dangerous experience, with optional VR support for immersive gameplay. It streamlines tasks like managing blueprints, tracking colonization projects, and accessing game information, and is fully functional in desktop mode. VR (optional) uses SteamVR or Desktop+ (recommended) to display interactive overlay windows, controllable via HOTAS, keyboard, or mouse. The app takes focus from the game for navigation and returns focus when hidden, ensuring a seamless experience in both desktop and VR (optional) modes.
 
