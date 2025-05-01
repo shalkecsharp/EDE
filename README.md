@@ -1,8 +1,8 @@
-# **Elite Dangerous Ease**
+# **Elite Dangerous Ease \- Help Document**
 
-**Elite Dangerous Ease** is a powerful WPF overlay tool designed to enhance your Elite Dangerous experience, with optional VR support for immersive gameplay. It streamlines tasks like managing blueprints, tracking colonization projects, and accessing game information, and is fully functional in desktop mode. VR (optional) uses SteamVR or Desktop+ (recommended) to display interactive overlay windows, controllable via HOTAS, keyboard, or mouse. The app takes focus from the game for navigation and returns focus when hidden, ensuring a seamless experience in both desktop and VR (optional) modes.
+**[Elite Dangerous Ease](https://api.github.com/repos/shalkecsharp/EDE/releases/latest)** is a powerful WPF overlay tool designed to enhance your Elite Dangerous experience, fully functional in desktop mode with optional VR support for immersive gameplay. It streamlines tasks like managing blueprints, tracking colonization projects, and accessing game information, heavily utilizing the Spansh API for system, station, and market data. VR (optional) uses SteamVR or Desktop+ (recommended) to display interactive overlay windows, controllable via HOTAS, keyboard, or mouse. The app takes focus from the game for navigation and returns focus when hidden, ensuring a seamless experience in both desktop and VR (optional) modes.
 
-**Important**: This application is not affiliated with, endorsed by, or sponsored by Frontier Developments, the developers of Elite Dangerous. All Elite Dangerous terminology (e.g., "journal files," "systems," "blueprints," "market data") is the intellectual property of Frontier Developments and is used for compatibility.
+**Important**: This application is not affiliated with, endorsed by, or sponsored by Frontier Developments, the developers of Elite Dangerous. All Elite Dangerous terminology (e.g., "journal files," "systems," "blueprints," "market data") is the intellectual property of Frontier Developments and is used for compatibility. Special thanks to [Spansh](https://spansh.co.uk/) for providing the API that powers system, station, and market information.
 
 ## **Table of Contents**
 
@@ -17,7 +17,6 @@
   * Engineering  
   * Colonization  
   * Macro  
-* Support the Project  
 * License  
 * Troubleshooting
 
@@ -27,11 +26,11 @@ Elite Dangerous Ease enhances Elite Dangerous gameplay in desktop mode, with opt
 
 * Journal file processing for real-time data (e.g., market info, commander status).  
 * Navigation with HOTAS (e.g., POV, Button1), keyboard (WASD), or mouse.  
-* Blueprint management, colonization tracking, and macro execution.  
-* Discord integration for sharing logs and documentation.  
+* Blueprint management, colonization tracking, finding material traders, and systems for manufactured materials.  
+* Discord integration is used to share logs and documentation.  
 * Plot Route with specific key bindings.
 
-The app also runs smoothly in desktop mode.
+The app runs smoothly both in a VR environment and on a desktop. 
 
 ## **Prerequisites**
 
@@ -50,7 +49,7 @@ The app also runs smoothly in desktop mode.
 
 ## **Installation**
 
-1. **Download**: Get the [Latest Release](https://github.com/shalkecsharp/EDE/releases/latest)
+1. **Download**: [Get the latest](https://api.github.com/repos/shalkecsharp/EDE/releases/latest)
 2. **Unzip**: Extract ede.zip to any folder (e.g., C:\\Games\\EliteDangerousEase).  
 3. **Set Up VR Overlay System (Optional)**:  
    * If using VR, configure a VR overlay system:  
@@ -187,4 +186,5 @@ Proprietary license (see LICENSE.txt). Key points:
 
 ## **Troubleshooting**
 
-Use **POST LOG** button left of Close button in the top right corner. Feel free to ask on [Discord](https://discord.gg/NY688QpZ)
+Use **POST LOG** button left of Close button in the top right corner. Feel free to ask on discord https://discord.gg/NY688QpZ
+
