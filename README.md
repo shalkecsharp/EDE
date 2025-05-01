@@ -28,7 +28,6 @@ Elite Dangerous Ease enhances Elite Dangerous gameplay in desktop mode, with opt
 * Navigation with HOTAS (e.g., POV, Button1), keyboard (WASD), or mouse.  
 * Blueprint management, colonization tracking, finding material traders, and systems for manufactured materials.  
 * Discord integration is used to share logs and documentation.  
-* Plot Route with specific key bindings.
 
 The app runs smoothly both in a VR environment and on a desktop. 
 
@@ -44,8 +43,7 @@ The app runs smoothly both in a VR environment and on a desktop.
     * **Desktop+** (recommended): Download from Desktop+ GitHub or Steam for better performance.  
 * **HOTAS/Controller**: Optional, but works for both desktop and VR. Map buttons (e.g., Button10 for toggle, POV for navigation) in Elite Dangerous or the app.  
 * **System Requirements**: Windows with .NET Framework 4.8 or .NET 6+.  
-* **Google Drive API**: Required for **COLONIZATION** (free; see Configuration).  
-* **Key Bindings**: Specific bindings for **Plot Route** (see Configuration).
+* **Google Drive API**: Required for **COLONIZATION** (free; see Configuration).
 
 ## **Installation**
 
@@ -77,14 +75,6 @@ The app runs smoothly both in a VR environment and on a desktop.
     * Download credentials JSON to app directory (e.g., credentials.json).  
     * Authenticate via **COLONIZATION \> SETTINGS**.  
   * See Google Drive API Docs.  
-* **Plot Route**:  
-  * Set Elite Dangerous key bindings:  
-    * Open galaxy map: **O**  
-    * UI up: **W**  
-    * UI down: **S**  
-    * UI select: **SPACE**  
-    * Galaxy map zoom: **Z**  
-  * Remove **W** and **S** from General \> Galaxy Map controls.  
 * **VR Overlay System (Optional)**:  
   * If using VR:  
     * **SteamVR**: Enable overlays (SteamVR Settings \> General).  
@@ -103,8 +93,8 @@ The overlay takes focus from Elite Dangerous for navigation and returns focus wh
   * **SPACE**: Trigger actions (e.g., select, pin blueprints).  
   * **BACKSPACE**: Return to parent panel.  
 * **Mouse**:  
-  * Click buttons/items.  
-  * Note: **Plot Route** not yet mouse-supported.  
+  * Click buttons/items.
+  * Double click on a cell executes a copy to the clipboard
 * **HOTAS/Controller**:  
   * **Button3, Button4**: Switch tabs.  
   * **POV**: Navigate panels.  
@@ -134,12 +124,12 @@ Search for systems, stations, resources.
 
 * **RECENT LOCATIONS**:  
   * Lists visited stations/planets from journal files.  
-  * Select with **SPACE** (Button1) for details or **Plot Route**.  
+  * Select with **SPACE**, (Button1) or DblMouseClick to copy to clipboard.  
 * **NEAREST**:  
   * Finds material traders/manufactured materials.  
 * **NEUTRON PLOTTER**:  
   * Shows next jump from imported Neutron Plotter plot.  
-  * Select with **SPACE** (Button1).  
+  * Select with **SPACE**, (Button1) or DblMouseClick to copy to clipboard.  
 * **INARA**:  
   * Links to Inara for system/commander data.
 
@@ -153,7 +143,7 @@ Manages blueprints, engineers, ships.
   * Shows engineer details.  
 * **SHIPS**:  
   * Lists ships/modules.  
-  * **SPACE** (Button1) for **Plot Route**.
+  * Select with **SPACE**, (Button1) or DblMouseClick to copy to clipboard.  
 
 ### **Colonization**
 
