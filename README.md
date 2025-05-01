@@ -1,4 +1,4 @@
-# **Elite Dangerous Ease \- Help Document**
+# **Elite Dangerous Ease**
 
 **[Elite Dangerous Ease](https://api.github.com/repos/shalkecsharp/EDE/releases/latest)** is a powerful WPF overlay tool designed to enhance your Elite Dangerous experience, fully functional in desktop mode with optional VR support for immersive gameplay. It streamlines tasks like managing blueprints, tracking colonization projects, and accessing game information, heavily utilizing the Spansh API for system, station, and market data. VR (optional) uses SteamVR or Desktop+ (recommended) to display interactive overlay windows, controllable via HOTAS, keyboard, or mouse. The app takes focus from the game for navigation and returns focus when hidden, ensuring a seamless experience in both desktop and VR (optional) modes.
 
